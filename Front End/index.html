@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sanitizer Sprayer</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<div class="Controls" id="controls">
+
+		<div class="Pump">
+			<button id="pump1">PUMP1</button>
+			<p class="Status">Status: <span id="pump1Status">OFF</span></p>
+		</div>
+		
+		<div class="Pump">
+			<button id="pump2">PUMP2</button>
+			<p class="Status">Status: <span id="pump2Status">OFF</span></p>
+		</div>
+
+		<div class="LED">
+			<button id="frontLED">Front LED</button>
+			<p class="Status">Status: <span id="fLEDStatus">OFF</span></p>
+		</div>
+
+		<div class="LED">
+			<button id="rearLED"> Rear LED</button>
+			<p class="Status">Status: <span id="rLEDStatus">OFF</span></p>
+		</div>
+
+	</div>
+
+	<div class="Video">
+		
+		<H1>THERE WILL BE VIDEO OF THE CAMERA FITTED ON THE BOT</H1>
+
+	</div>
+
+	<div class="movement">
+
+		<H2>Motion Control</H2>
+		
+		<div class="Forward">
+			<button id="front" class="UP">FRONT</button>
+		</div>
+		
+		<div class="LeftStopRight">
+			<button id="left" class="LEFT">LEFT</button>
+			<button id="stop" class="STOP">STOP</button>
+			<button id="right" class="RIGHT">RIGHT</button>
+		</div>
+		
+		<div class="Back">
+			<button id="back" class="BACK">BACK</button>
+			<p class="Status" id="pmotion">Motion: <span id="motion">STOP</span></p>
+		</div>
+
+
+
+		<div class="slidecontainer">
+			
+			<H2>Speed Control</H2>
+			<input type="range" min="0" max="100" value="0" class="slider" id="speedControl">
+			<p>Value: <span id="speedValue">0%</span></p>
+
+		</div>
+
+		<div class="CamControl" id="cameraControl">
+			<H2 id='cam'>Camera Movement</H2>
+			<div id="camLeftRight">
+				<button id="camLeft"><img src="Rotate Left.png" id="btn"></button>
+				<button id="camRight"><img src="Rotate Right.png" id="btn"></button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

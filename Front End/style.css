@@ -1,0 +1,227 @@
+body{
+	
+	background-color: #544241;
+	font-family: 'Source Code Pro', monospace;
+}
+
+button{
+
+	border-radius: 12%;
+	font-size: 15px;
+	padding: 20px;
+	border-spacing: 10px;
+	box-shadow: 10px, 10px, 10px, #e9eef7;
+	margin: 2%;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+button:hover{
+	opacity: 1.0;
+}
+
+h2{
+
+	text-align: center;
+	color: #2dd7e0;
+}
+
+h1{
+
+	padding-top: 270px;
+	font-style: italic;
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+	margin-top: 3%;
+}
+
+.Status{
+
+	text-align: left;
+}
+
+#pmotion{
+
+	margin-left: 5%;
+}
+
+.movement{
+
+	width: 350px;
+	border: 5px solid #00bf2d;
+	float: right;
+}
+
+.Controls{
+	width: 150px;
+	height: 670px;
+	position: relative;
+	border: 5px solid #00bf2d;
+	float: left;
+}
+
+.Video{
+
+	width: 950px;
+	height: 670px;
+	border: 5px solid #00bf2d;
+	float: left;
+	margin-left: 20px;
+}
+
+.CamControl{
+	width: 340px;
+	position: relative;
+	float: right;
+}
+
+#btn {
+	height: 35px;
+	width: 35px;
+}
+
+#camLeftRight {
+	margin-top: 5%;
+	margin-bottom: 6%;
+	position: relative;
+	text-align: center;
+	top: 18%
+}
+
+#camLeft {
+	margin-right: 10%;
+	padding: 20px;
+}
+
+#camRight {
+	margin-left: 10%;
+	padding: 20px;
+}
+
+#cam {
+	margin: auto;
+}
+
+.Forward{
+	
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 8%;
+}
+
+.LeftStopRight{
+
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 13%;
+}
+
+.Back{
+
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 17%;
+}
+
+.LEFT{
+
+	padding-right: 30px; 
+}
+
+.slidecontainer{
+	width: 75%;
+	height: 160px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.slider{
+	width: 100%;
+	height: 50px;
+	background: white;
+	opacity: 0.6;
+	transition: opacity 0.3s;
+	border-radius: 12%;
+	box-shadow: 0px, 1px, 10px, 1px, black;
+}
+
+.slider:hover{
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 40px;
+	height: 40px;
+	background: white;
+	border-radius: 50%
+	cursor: pointer;
+}
+
+.slider::after{
+
+	content: '100%';
+	color: white;
+	font-size: 1rem;
+	position: relative;
+	top: 60%;
+}
+
+.slider::before{
+
+	content: '0%';
+	color: white;
+	font-size: 1rem;
+	position: relative;
+	top: 60%;
+}
+
+#pumpControl::after{
+	
+	content: '100%';
+	color: white;
+	font-size: 1rem;
+	position: relative;
+	top: 60%;	
+}
+
+#pumpControl::before{
+
+	content: '0%';
+	color: white;
+	font-size: 1rem;
+	position: relative;
+	top: 60%;
+}
+
+.Pump{
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 20%;
+	margin-top: 20%;
+}
+
+.LED{
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 20%; 
+}
